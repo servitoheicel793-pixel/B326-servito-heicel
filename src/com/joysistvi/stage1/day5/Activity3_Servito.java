@@ -10,7 +10,6 @@ public class Activity3_Servito {
         System.out.println("Allowed to enter the event: " + allowed);
         // Allowed to enter the event : Yes / No
 
-
         boolean isWeekend = false;
         boolean isHoliday = true;
         boolean noClasses = isWeekend || isHoliday;
