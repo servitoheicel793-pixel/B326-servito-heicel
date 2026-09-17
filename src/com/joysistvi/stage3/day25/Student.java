@@ -1,0 +1,50 @@
+package com.joysistvi.stage3.day25;
+
+public class Student {
+
+    private int id;
+    private String name;
+    private String faveLanguage;
+
+    // Parametherized constructor
+    public Student(int id, String name, String faveLanguage) {
+        this.id = id;
+        this.name = name;
+        this.faveLanguage = faveLanguage;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFaveLanguage() {
+        return faveLanguage;
+    }
+
+    public void setFaveLanguage(String faveLanguage) {
+        this.faveLanguage = faveLanguage;
+    }
+
+    // String representation of student of object
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", faveLanguage='" + faveLanguage + '\'' +
+                '}';
+    }
+
+}
